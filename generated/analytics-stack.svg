@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111b35"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1100" height="390" rx="28" fill="url(#bg)"/>
+<rect x="2" y="2" width="1096" height="386" rx="27" fill="none" stroke="#263956" stroke-width="2"/>
+<text x="550" y="48" text-anchor="middle" fill="#eaf2ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">📊 MY ANALYTICS STACK</text>
+<text x="550" y="72" text-anchor="middle" fill="#7185a3" font-family="Arial,sans-serif" font-size="12">Connecting data, analysis, reporting and automation</text>
+<g stroke="url(#line)" stroke-width="4" stroke-linecap="round" fill="none" filter="url(#glow)">
+ <path d="M550 205 L550 135"/><path d="M550 205 L550 275"/><path d="M550 205 L310 205"/><path d="M550 205 L790 205"/>
+</g>
+<g fill="#22d3ee"><path d="M550 130 l-7 11 h14z"/><path d="M550 280 l-7-11 h14z"/><path d="M305 205 l11-7 v14z"/><path d="M795 205 l-11-7 v14z"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+ <rect x="425" y="170" width="250" height="70" rx="20" fill="#0d1a2c" stroke="#22d3ee" stroke-width="2"/>
+ <text x="550" y="198" fill="#7dd3fc" font-size="12">CORE</text><text x="550" y="222" fill="#ffffff" font-size="24" font-weight="700">DATA</text>
+ <rect x="410" y="92" width="280" height="58" rx="18" fill="#0d1a2c" stroke="#334866"/>
+ <text x="550" y="128" fill="#eaf2ff" font-size="19" font-weight="700">📈 POWER BI</text>
+ <rect x="410" y="282" width="280" height="58" rx="18" fill="#0d1a2c" stroke="#334866"/>
+ <text x="550" y="318" fill="#eaf2ff" font-size="19" font-weight="700">📗 EXCEL</text>
+ <rect x="120" y="176" width="280" height="58" rx="18" fill="#0d1a2c" stroke="#334866"/>
+ <text x="260" y="212" fill="#eaf2ff" font-size="19" font-weight="700">🗄️ SQL</text>
+ <rect x="700" y="176" width="280" height="58" rx="18" fill="#0d1a2c" stroke="#334866"/>
+ <text x="840" y="212" fill="#eaf2ff" font-size="19" font-weight="700">🐍 Python</text>
+</g>
+<text x="550" y="368" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="11">MySQL · Pandas · NumPy · PHP · PyQt6 · GitHub Actions</text>
+</svg>

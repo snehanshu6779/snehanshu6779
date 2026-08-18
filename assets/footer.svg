@@ -1,0 +1,77 @@
+<svg width="1200" height="180"
+     viewBox="0 0 1200 180"
+     xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+    <linearGradient id="footerBg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
+        <stop offset="0%" stop-color="#050816"/>
+        <stop offset="50%" stop-color="#111827"/>
+        <stop offset="100%" stop-color="#050816"/>
+
+    </linearGradient>
+
+    <linearGradient id="footerText"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
+        <stop offset="0%" stop-color="#22d3ee"/>
+        <stop offset="50%" stop-color="#60a5fa"/>
+        <stop offset="100%" stop-color="#a78bfa"/>
+
+    </linearGradient>
+
+</defs>
+
+<rect width="1200"
+      height="180"
+      rx="24"
+      fill="url(#footerBg)"/>
+
+<text x="600"
+      y="70"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="28"
+      font-weight="700"
+      fill="url(#footerText)">
+
+    BUILD • ANALYZE • AUTOMATE • IMPROVE
+
+</text>
+
+<text x="600"
+      y="110"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      fill="#94a3b8">
+
+    Data → Insight → Decision → Impact
+
+</text>
+
+<circle cx="420" cy="145" r="4" fill="#22d3ee">
+    <animate
+        attributeName="opacity"
+        values="0.2;1;0.2"
+        dur="2s"
+        repeatCount="indefinite"/>
+</circle>
+
+<circle cx="780" cy="145" r="4" fill="#a78bfa">
+    <animate
+        attributeName="opacity"
+        values="1;0.2;1"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+</circle>
+
+</svg>
