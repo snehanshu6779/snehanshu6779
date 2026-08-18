@@ -3,32 +3,35 @@ name: 🐍 Contribution Snake
 on:
   schedule:
     - cron: "0 0 * * *"
-
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-
   generate:
-
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
+    timeout-minutes: 10
 
     steps:
-
-      - name: 🐍 Generate Contribution Snake
-        uses: Platane/snk@v3
+      - name: 🐍 Generate contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: snehanshu6779
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🚀 Push Snake
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: 🚀 Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
+          target_branch: output
           build_dir: dist
-
+          commit_message: "Update contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
