@@ -1,0 +1,13 @@
+name: 📊 GitHub Metrics
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Profile 2.0 uses scripts/generate_profile.py instead of the old Metrics service."
