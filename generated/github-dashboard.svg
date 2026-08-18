@@ -3,7 +3,7 @@
 <rect width="100%" height="100%" rx="24" fill="#050816"/>
 <text x="32" y="42" fill="url(#g)" font-family="Arial,sans-serif" font-size="24" font-weight="700">⚡ LIVE GITHUB ANALYTICS</text><rect x="30" y="70" width="245" height="108" rx="18" fill="#0b1220" stroke="#24324a"/>
 <text x="48" y="97" fill="#8fa3bf" font-family="Arial,sans-serif" font-size="12">PUBLIC REPOSITORIES</text>
-<text x="48" y="134" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">0</text>
+<text x="48" y="134" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">1</text>
 <text x="48" y="158" fill="#64748b" font-family="Arial,sans-serif" font-size="10">owned public repositories</text><rect x="290" y="70" width="245" height="108" rx="18" fill="#0b1220" stroke="#24324a"/>
 <text x="308" y="97" fill="#8fa3bf" font-family="Arial,sans-serif" font-size="12">FOLLOWERS</text>
 <text x="308" y="134" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">3</text>
@@ -15,7 +15,7 @@
 <text x="828" y="134" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">0</text>
 <text x="828" y="158" fill="#64748b" font-family="Arial,sans-serif" font-size="10">forks on owned repos</text><rect x="160" y="208" width="245" height="108" rx="18" fill="#0b1220" stroke="#24324a"/>
 <text x="178" y="235" fill="#8fa3bf" font-family="Arial,sans-serif" font-size="12">CONTRIBUTIONS</text>
-<text x="178" y="272" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">13</text>
+<text x="178" y="272" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">7</text>
 <text x="178" y="296" fill="#64748b" font-family="Arial,sans-serif" font-size="10">last 12 months</text><rect x="427" y="208" width="245" height="108" rx="18" fill="#0b1220" stroke="#24324a"/>
 <text x="445" y="235" fill="#8fa3bf" font-family="Arial,sans-serif" font-size="12">CURRENT STREAK</text>
 <text x="445" y="272" fill="#e8f0ff" font-family="Arial,sans-serif" font-size="27" font-weight="700">1 days</text>
