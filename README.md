@@ -100,6 +100,20 @@ I work across **data analysis, business intelligence, software development and a
 
 ---
 
+## 📊 CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=snehanshu6779&theme=github-compact&hide_border=true&area=true"
+  width="100%"
+  alt="Snehanshu Mandal's GitHub contribution activity graph"
+/>
+
+</div>
+
+---
+
 ## 🐍 CONTRIBUTION SNAKE
 
 <div align="center">
