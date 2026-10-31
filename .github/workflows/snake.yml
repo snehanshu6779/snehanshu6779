@@ -1,13 +1,12 @@
+name: 🐍 Classic Platane Snake (manual)
 
-name: Generate Contribution Snake
+# The README now uses the neon snake built by .github/workflows/profile.yml
+# (scripts/generate_snake.py), which shares its data with the dashboard so the
+# two never disagree. This workflow is kept as an on-demand fallback that
+# publishes the classic Platane snake, recoloured to match, to the `output` branch.
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,17 +15,17 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
-          github_user_name: snehanshu6779
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#22d3ee&color_dots=#ebedf0,#bae6fd,#38bdf8,#2563eb,#7c3aed
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#111a2e,#0e4f63,#0891b2,#3b82f6,#a78bfa
+            dist/github-contribution-grid-snake.gif?color_snake=#22d3ee&color_dots=#111a2e,#0e4f63,#0891b2,#3b82f6,#a78bfa
 
-      - name: Publish generated SVG
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

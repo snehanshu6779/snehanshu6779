@@ -1,5 +1,5 @@
 import json, os, urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from html import escape
 
 USER = 'snehanshu6779'
@@ -57,23 +57,45 @@ forks = sum(r.get('forks_count', 0) for r in repos)
 today = datetime.now(timezone.utc).date()
 frm = today - timedelta(days=365)
 
-q = '''query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}'''
+q = '''query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){contributionCalendar{totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}}'''
+LEVELS = {'NONE': 0, 'FIRST_QUARTILE': 1, 'SECOND_QUARTILE': 2, 'THIRD_QUARTILE': 3, 'FOURTH_QUARTILE': 4}
 try:
-    cal = gql(q, {'login': USER, 'from': f'{frm}T00:00:00Z', 'to': f'{today}T23:59:59Z'})['data']['user']['contributionsCollection']['contributionCalendar']
+    res = gql(q, {'login': USER, 'from': f'{frm}T00:00:00Z', 'to': f'{today}T23:59:59Z'})
+    if res.get('errors'):
+        raise RuntimeError(res['errors'])
+    cal = res['data']['user']['contributionsCollection']['contributionCalendar']
     days = [d for w in cal['weeks'] for d in w['contributionDays']]
     contrib = cal['totalContributions']
-except Exception:
+except Exception as e:
+    print(f'::warning::Contribution calendar unavailable: {e}')
+    cal = None
     days = []
     contrib = 0
 
+ist = timezone(timedelta(hours=5, minutes=30))
+now = datetime.now(ist).strftime('%d %b %Y')
+
+# Current streak. If today has no contributions *yet*, the streak is still
+# alive, so count back from yesterday instead of showing 0.
 by = {d['date']: d['contributionCount'] for d in days}
 streak = 0
-d = today
+d = max((date.fromisoformat(k) for k in by), default=today)
+if by.get(str(d), 0) == 0:
+    d -= timedelta(days=1)
 while by.get(str(d), 0) > 0:
     streak += 1
     d -= timedelta(days=1)
 
-now = datetime.now(timezone(timedelta(hours=5, minutes=30))).strftime('%d %b %Y')
+# Shared with scripts/generate_snake.py so the snake and dashboard always
+# show the same data from the same API call.
+if cal:
+    json.dump({
+        'generated_at': now,
+        'today': str(max(by)) if by else str(today),
+        'total': contrib,
+        'weeks': [[{'date': d['date'], 'count': d['contributionCount'], 'level': LEVELS.get(d.get('contributionLevel'), 0)}
+                   for d in w['contributionDays']] for w in cal['weeks']],
+    }, open(f'{OUT}/contributions.json', 'w', encoding='utf-8'))
 
 # Live dashboard: fixed 1100x340 canvas with safe margins and no overflow.
 s = start(1100, 340, '⚡ LIVE GITHUB ANALYTICS')

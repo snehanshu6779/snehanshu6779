@@ -140,7 +140,13 @@ I focus on developing practical applications, automation utilities and data-driv
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/snake-dark.svg" width="100%" alt="Animated contribution snake eating the last 12 months of GitHub contributions" />
+</picture>
+
+<sub>Refreshed every 3 hours from the same data as the dashboard above · the snake sprints through quiet weeks and slows down to feast on active ones</sub>
 
 </div>
 

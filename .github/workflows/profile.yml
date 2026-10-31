@@ -3,8 +3,11 @@ name: 🚀 Profile 2.0
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "generated/**"
   schedule:
-    - cron: "17 */6 * * *"
+    # every 3 hours, so new contributions show up on the snake + dashboard the same day
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,19 +15,28 @@ permissions:
 
 concurrency:
   group: profile-2-0
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Generate live profile assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_profile_v2.py
+
+      - name: Generate contribution snake (same data as dashboard)
+        run: python scripts/generate_snake.py
 
       - name: Commit generated assets
         run: |
@@ -33,7 +45,12 @@ jobs:
           git add generated/
           if git diff --cached --quiet; then
             echo "No generated changes."
-          else
-            git commit -m "chore: refresh profile dashboard"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh profile dashboard and contribution snake"
+          # main may have moved while we were generating (e.g. a README edit)
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            sleep 5
+          done
+          echo "::error::Could not push generated assets" && exit 1
