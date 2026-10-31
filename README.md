@@ -1,21 +1,24 @@
-<div align="center">
+ <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Snehanshu Mandal" />
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/assets/header.svg" width="100%" alt="Snehanshu Mandal" />
 
 # 👋 Hi, I'm Snehanshu Mandal
 
-### 📊 Data Analyst · Business Intelligence · Python · SQL · Automation
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Data+Analyst+%7C+Business+Intelligence;Python+%7C+SQL+%7C+Power+BI;MIS+Reporting+%7C+Automation;Building+Practical+Data+Solutions" alt="Animated introduction" />
 
 **Turning data into insights, and repetitive work into automation.**
 
+<br/>
+
 <a href="mailto:snehanshu6779@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/snehanshu-mandal/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/snehanshu-mandal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://github.com/snehanshu6779"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://www.facebook.com/snehanshum1"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 <a href="https://www.instagram.com/snehanshum1"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
-<br><br>
-<img src="https://komarev.com/ghpvc/?username=snehanshu6779&label=PROFILE%20VIEWS&style=for-the-badge" alt="Profile Views" />
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=snehanshu6779&label=PROFILE+VIEWS&color=36BCF7&style=flat-square" alt="Profile views" />
 
 </div>
 
@@ -23,168 +26,186 @@
 
 ## 👨‍💻 About Me
 
-I work across **data analysis, business intelligence, software development and automation**, with a focus on building useful systems around real-world data and business processes.
+I'm a Data Analyst working across data analytics, business intelligence, MIS reporting, software development and automation.
 
-- 📊 Data analysis, dashboards and MIS reporting
-- 🐍 Python automation and application development
-- 🗄️ SQL, MySQL, MariaDB and database systems
-- 📈 Business intelligence and reporting workflows
-- 📑 Excel, CSV and PDF data processing
-- 🖥️ PyQt6 desktop applications
-- 🌐 PHP web applications
-- ⚙️ GitHub Actions and automated workflows
+I enjoy building practical solutions that transform business data into meaningful information and simplify repetitive operational tasks.
+
+- 📊 Data analysis, MIS and business reporting
+- 📈 Power BI dashboards and Excel automation
+- 🐍 Python-based automation and data processing
+- 🗄️ SQL, MySQL and MariaDB
+- 🖥️ Desktop application development using PyQt6
+- 🌐 PHP and MySQL web applications
+- 📑 Excel, CSV and PDF processing
+- ⚙️ Automated workflows using GitHub Actions
+
+**My working approach:** Understand the requirement → Analyse the data → Develop the solution → Automate the process → Improve the results.
 
 ---
 
-## 📊 MY ANALYTICS STACK
+## 🧰 Technology Stack
 
 <div align="center">
 
-<img src="./generated/analytics-stack.svg" width="100%" alt="Snehanshu's analytics stack" />
+### 📊 Data Analytics & Business Intelligence
+
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets" />
+<img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="PowerPoint" />
+
+### 🐍 Programming & Development
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt6" />
+
+### 🗄️ Database Management
+
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white" alt="SQL" />
+
+### ⚙️ Tools & Automation
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 
 </div>
 
 ---
 
-## ⚡ LIVE GITHUB COMMAND CENTER
+## 📊 Analytics Dashboard
 
 <div align="center">
 
-<img src="./generated/github-dashboard.svg" width="100%" alt="Live GitHub analytics dashboard" />
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/analytics-stack.svg" width="100%" alt="Analytics stack dashboard" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/github-dashboard.svg" width="100%" alt="GitHub analytics command center" />
 
 </div>
 
 ---
 
-## 🚀 MY PROJECTS
+## 🚀 Featured Projects
 
 <div align="center">
 
-<img src="./generated/featured-projects.svg" width="100%" alt="Automatically selected public projects" />
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/featured-projects.svg" width="100%" alt="Featured GitHub projects" />
+
+</div>
+
+I focus on developing practical applications, automation utilities and data-driven solutions that improve productivity and simplify business operations.
+
+---
+
+## 🛰️ Recent Development Activity
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/activity.svg" width="100%" alt="Recent development activity" />
 
 </div>
 
 ---
 
-## 🛰️ RECENT ACTIVITY
+## 📈 Programming Language Distribution
 
 <div align="center">
 
-<img src="./generated/activity.svg" width="100%" alt="Recent GitHub activity" />
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/main/generated/languages.svg" width="100%" alt="Programming language distribution" />
 
 </div>
 
 ---
 
-## 🛠️ TECHNOLOGY & LANGUAGE MIX
+## 💡 What I Build
+
+| Area | My Focus |
+|:---|:---|
+| 📊 Data Analytics | Data cleaning, analysis and reporting |
+| 📈 Business Intelligence | Power BI dashboards and KPIs |
+| 📑 Excel Automation | Power Query, PivotTables, formulas and dashboards |
+| 🐍 Python | Automation and data processing |
+| 🗄️ SQL | Database queries and data management |
+| 🖥️ Desktop Applications | PyQt6 applications and utilities |
+| 🌐 Web Applications | PHP and MySQL systems |
+| ⚙️ Workflow Automation | Python scripts and GitHub Actions |
+
+---
+
+## 🐍 GitHub Contribution Snake
 
 <div align="center">
 
-<img src="./generated/languages.svg" width="100%" alt="Repository language mix" />
+<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
 
 </div>
 
 ---
 
-## 💡 WHAT I BUILD
-
-| Area | Focus |
-|---|---|
-| 📊 Analytics | Data analysis, dashboards, MIS and reporting |
-| 🐍 Python | Automation, data processing and applications |
-| 🗄️ SQL | Queries, database design and business data |
-| 📈 BI | Power BI, Excel and insight-driven reporting |
-| 🖥️ Applications | PyQt6 desktop and PHP web applications |
-| 📑 Documents | Excel, CSV and PDF workflows |
-| ⚙️ Automation | GitHub Actions and repeatable workflows |
-
----
-
-## 📊 CONTRIBUTION ACTIVITY
+## 🏗️ How My GitHub Profile Stays Updated
 
 <div align="center">
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=snehanshu6779&theme=github-compact&hide_border=true&area=true"
-  width="100%"
-  alt="Snehanshu Mandal's GitHub contribution activity graph"
-/>
+| Stage | Technology | Purpose |
+|:---:|:---|:---|
+| 01 | GitHub API | Collect repository information |
+| 02 | GitHub Actions | Run scheduled workflows |
+| 03 | Python | Process and analyse data |
+| 04 | SVG Generation | Create dashboard graphics |
+| 05 | GitHub Repository | Publish updated assets |
+
+</div>
+
+**Automation flow:**
+
+`GitHub API` → `Python` → `GitHub Actions` → `SVG Generation` → `README`
+
+---
+
+## 🎯 Currently Exploring
+
+<div align="center">
+
+| 📊 Advanced Power BI | 🐍 Python Automation |
+|:---:|:---:|
+| Interactive dashboards and reporting | Data processing and automation |
+
+| 🤖 AI-Assisted Analytics | 🏗️ Data Architecture |
+|:---:|:---:|
+| Intelligent data analysis | Scalable reporting systems |
 
 </div>
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE
+## 💭 My Development Philosophy
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/snehanshu6779/snehanshu6779/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake" />
+### Build Useful Things. Automate Repetitive Work. Turn Data Into Decisions.
+
+<br/>
+
+**UNDERSTAND → ANALYSE → DEVELOP → AUTOMATE → IMPROVE**
 
 </div>
 
 ---
 
-## 📈 DEVELOPMENT PHILOSOPHY
-
-> **Build useful things. Automate repetitive work. Turn data into decisions. Keep systems maintainable.**
-
-I enjoy taking an idea from **requirement → data → analysis → implementation → automation**.
-
----
-
-## 🤖 HOW THIS PROFILE STAYS LIVE
+## 🤝 Let's Connect
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="190"><strong>🔌 GitHub API</strong><br><sub>Live profile & repository data</sub></td>
-<td align="center" width="55">→</td>
-<td align="center" width="190"><strong>⚙️ GitHub Actions</strong><br><sub>Scheduled automation</sub></td>
-<td align="center" width="55">→</td>
-<td align="center" width="190"><strong>📊 Data Processing</strong><br><sub>Metrics & analytics</sub></td>
-<td align="center" width="55">→</td>
-<td align="center" width="190"><strong>🎨 SVG / JSON</strong><br><sub>Generated profile assets</sub></td>
-<td align="center" width="55">→</td>
-<td align="center" width="190"><strong>🌐 README</strong><br><sub>Updated profile</sub></td>
-</tr>
-</table>
+<a href="mailto:snehanshu6779@gmail.com"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/snehanshu-mandal/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/snehanshu6779"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-</div>
+<br/><br/>
 
-> **Automatic:** repository metrics, contribution data, project information, language statistics and profile status are generated by the profile workflow.
-
----
-
-## 🎯 CURRENTLY EXPLORING
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="230"><br>📊<br><strong>Advanced Power BI</strong><br><sub>Interactive dashboards & storytelling</sub><br><br></td>
-<td align="center" width="230"><br>🐍<br><strong>Python Data Engineering</strong><br><sub>Pipelines, processing & automation</sub><br><br></td>
-</tr>
-<tr>
-<td align="center" width="230"><br>🤖<br><strong>AI-assisted Analytics</strong><br><sub>Smarter analysis & productivity</sub><br><br></td>
-<td align="center" width="230"><br>🏗️<br><strong>Modern BI Architecture</strong><br><sub>Scalable data & reporting systems</sub><br><br></td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🤝 LET'S CONNECT
-
-<div align="center">
-
-<a href="mailto:snehanshu6779@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/snehanshu-mandal/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/snehanshu6779"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-<br><br>
-
-**BUILD · ANALYZE · AUTOMATE · IMPROVE**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=BUILD.;ANALYSE.;AUTOMATE.;IMPROVE." alt="Build Analyse Automate Improve" />
 
 </div>
