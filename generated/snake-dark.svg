@@ -32,7 +32,6 @@
 <text x="38" y="158" text-anchor="end" fill="#7f91aa" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="9.5">Wed</text>
 <text x="38" y="188" text-anchor="end" fill="#7f91aa" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="9.5">Fri</text>
 <g fill="#111a2e">
-<rect x="46" y="104" width="11" height="11" rx="2.5"/>
 <rect x="46" y="119" width="11" height="11" rx="2.5"/>
 <rect x="46" y="134" width="11" height="11" rx="2.5"/>
 <rect x="46" y="149" width="11" height="11" rx="2.5"/>
@@ -398,6 +397,7 @@
 <rect x="811" y="194" width="11" height="11" rx="2.5"/>
 <rect x="826" y="104" width="11" height="11" rx="2.5"/>
 <rect x="826" y="119" width="11" height="11" rx="2.5"/>
+<rect x="826" y="134" width="11" height="11" rx="2.5"/>
 </g>
 <rect x="211" y="149" width="11" height="11" rx="2.5" fill="#0e4f63"><title>1 on 2026-01-28</title><animate attributeName="opacity" dur="21.88s" repeatCount="indefinite" values="1;1;0;0;1;1" keyTimes="0;0.1064;0.1104;0.8757;0.9634;1"/></rect>
 <rect x="556" y="119" width="11" height="11" rx="2.5" fill="#3b82f6"><title>8 on 2026-07-06</title><animate attributeName="opacity" dur="21.88s" repeatCount="indefinite" values="1;1;0;0;1;1" keyTimes="0;0.3053;0.3093;0.8757;0.9634;1"/></rect>
