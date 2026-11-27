@@ -511,7 +511,7 @@
 </g>
 <rect x="46" y="221" width="791" height="4" rx="2" fill="#101b2f"/>
 <rect x="46" y="221" width="0" height="4" rx="2" fill="url(#tg)"><animate attributeName="width" dur="23.13s" repeatCount="indefinite" values="0;11;26;41;56;71;86;101;116;131;146;161;176;191;206;221;236;251;266;281;296;311;326;341;356;371;386;401;416;431;446;461;476;491;506;521;536;551;566;581;596;611;626;641;656;671;686;701;716;731;746;761;776;791;791;0;0" keyTimes="0;0.0088;0.0165;0.0243;0.032;0.0397;0.0474;0.0551;0.0628;0.0706;0.0963;0.104;0.1117;0.1194;0.1271;0.1349;0.1426;0.1503;0.158;0.1657;0.1734;0.1812;0.1889;0.1966;0.2043;0.212;0.2197;0.2275;0.2352;0.2429;0.2506;0.2583;0.266;0.2918;0.3175;0.3432;0.3689;0.3946;0.4204;0.4461;0.4718;0.4975;0.5232;0.549;0.5567;0.5824;0.6081;0.6338;0.6596;0.6853;0.711;0.7367;0.7625;0.7882;0.8824;0.9654;1"/></rect>
-<text x="46" y="259" fill="#7f91aa" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="10">Updated 27 Nov 2026 · synced with profile dashboard</text>
+<text x="46" y="259" fill="#7f91aa" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="10">Updated 28 Nov 2026 · synced with profile dashboard</text>
 <text x="722" y="259" text-anchor="end" fill="#7f91aa" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="10">Less</text>
 <rect x="728" y="250" width="11" height="11" rx="2.5" fill="#111a2e"/>
 <rect x="743" y="250" width="11" height="11" rx="2.5" fill="#0e4f63"/>
